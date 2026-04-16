@@ -1,0 +1,5 @@
+{
+  "name": "APK Distribution Server",
+  "description": "A web application for hosting and distributing Android APK updates.",
+  "requestFramePermissions": []
+}

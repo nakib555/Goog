@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Georgia", "Lora", serif;
+  --color-background: #080808;
+  --color-foreground: #F2F2F2;
+  --color-accent: #B49269;
+  --color-accent-hover: #9c7e5a;
+  --color-dim: rgba(255, 255, 255, 0.3);
+  --color-line: rgba(255, 255, 255, 0.1);
+  --color-surface: #121212;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans);
+}
